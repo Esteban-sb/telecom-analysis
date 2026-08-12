@@ -12,24 +12,25 @@ Se analizaron 3 datasets `users`, `usage` y `plans`. El dataset `users` cuenta c
 
 ## ▶ Cómo abrir el notebook en Google Colab
 
-Haz clic en el siguiente botón:
+Haz clic en el siguiente link:
 
-[![Open In Colab](https://colab.research.google.com/drive/15ZR_IxqXCFq9kTyIlCeGf-eS5Gbv8wwd?usp=sharing)](URL_DEL_NOTEBOOK_EN_GITHUB)
+(https://colab.research.google.com/drive/15ZR_IxqXCFq9kTyIlCeGf-eS5Gbv8wwd?usp=sharing)](Project_ConnectaTel.ipynb)
 
 O:
 
 1. Abre el archivo `.ipynb` en GitHub
 2. Haz clic en **Open in Colab**
 
-## 📘 Cómo reproducir el análisis
+##  Cómo reproducir el análisis
 
-1. Abre `notebooks/everpeak_analysis.ipynb`
+1. Abre `notebooks/Project-ConnectaTel.ipynb`
 2. Ejecuta las celdas en orden
 3. El notebook carga automáticamente el dataset desde `/data/` o desde un enlace público (según corresponda)
 
-## 🧠 Objetivo del análisis
+##  Objetivo del análisis
 
 - Identificar problemas de calidad de datos
-- Construir un pipeline de limpieza reproducible
 - Analizar comportamientos, distribuciones y outliers
+- Generar un nuevo dataset con datos de los tres datasets cargados.
+- Generar visualizaciones para analizar el comportamiento de los usuarios
 - Generar insights para el equipo de Estrategia e Integración de EverPeak
